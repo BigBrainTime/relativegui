@@ -58,7 +58,7 @@ radiolabels = {
     '1_0': ('2', None, 15, None),
     '2_0': ('3', None, 15, None)
 }
-radiobutton = pygui.radio_buttons(40, 40, pygui.hover_toggle_button(
+radiobutton = pygui.radio_buttons(40, 40,SIZE[0], SIZE[1], pygui.hover_toggle_button(
     10, 80, 5, 5, SIZE[0], SIZE[1], COLOR['RED'], COLOR['GREEN'], False, COLOR['MAROON'], COLOR['GREEN']), 3,2,radiolabels)
 textboxtest = pygui.single_line_text_box(1,20,15,5,SIZE[0],SIZE[1],COLOR['RED'],font_size=20)
 seven=pygui.seven_segment(1,40,10,30,SIZE[0],SIZE[1],'0')

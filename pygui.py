@@ -496,7 +496,7 @@ class movable_container(Container):
                          border_color=border_color, scale_x=scale_x, scale_y=scale_y, offset_x=offset_x, offset_y=offset_y)
         self.moving = False
         self.top_border = momentary_button(x, y, w, top_border_size, screen_x, screen_y, top_border_color,
-                                           top_border_color, None, top_border_title, top_border_font, top_border_font_size, top_border_font_color)
+                                           top_border_color, None, top_border_title, None,top_border_font,top_border_font_size, top_border_font_color)
 
     def process(self, surface, screen_x, screen_y, scale_x=1, scale_y=1, offset_x=0, offset_y=0):
         if self.minimized:
